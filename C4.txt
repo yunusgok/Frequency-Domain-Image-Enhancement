@@ -1,0 +1,4 @@
+Mean Square Error between C4 and decomppressed C4 is: 40.1496
+Mean Square Error between C4 and JPEG C4 is: 4.3772
+Bitmap/Coded 38.6335
+Bitmap/Jpeg 8.6619

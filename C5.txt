@@ -1,0 +1,4 @@
+Mean Square Error between C5 and decomppressed C5 is: 20.66
+Mean Square Error between C5 and JPEG C5 is: 3.4384
+Bitmap/Coded 49.8635
+Bitmap/Jpeg 13.8398

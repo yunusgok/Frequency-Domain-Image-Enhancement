@@ -1,0 +1,33 @@
+RGB=imread('A2.png');
+I=(RGB); % convert the image to grey 
+A = fft2(double(I)); % compute FFT of the grey image
+A1=fftshift(A); % frequency scaling
+imshow(log(1+A1),[]);
+% Gaussian Filter Response Calculation
+[M N]=size(A); % image size
+R1=60; % filter size parameter 
+R2 = 9;
+R3 = 280;
+R4 = 320;
+
+Cx=0.5*N;
+Cy=0.5*M;
+Lo1=bandpassFilter(M,N,R1,R2);
+
+
+imshow(log(1+Lo2),[]);
+J  = A1.*Lo1;
+
+
+
+
+Lo2=bandpassFilter(M,N,R3,R4);
+J  = J.*Lo2;
+imshow(log(1+J),[]);
+J1=ifftshift(J);
+B1=ifft2(J1);
+imshow(B1,[]);
+
+K=A1.*Hi;
+K1=ifftshift(K);
+B2=ifft2(K1);

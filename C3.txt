@@ -1,0 +1,4 @@
+Mean Square Error between C3 and decomppressed C3 is: 22.1075
+Mean Square Error between C3 and JPEG C3 is: 0.00060702
+Bitmap/Coded 61.8802
+Bitmap/Jpeg 14.9933

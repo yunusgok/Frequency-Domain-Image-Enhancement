@@ -1,0 +1,4 @@
+Mean Square Error between C1 and decomppressed C1 is: 56.0461
+Mean Square Error between C1 and JPEG C1 is: 7.6044
+Bitmap/Coded 70.953
+Bitmap/Jpeg 15.5258
